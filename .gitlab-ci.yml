@@ -1,0 +1,9 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build-job:
+  stage: build
+  script:
+    - C:\"Program Files"\Unity\Hub\Editor\2020.1.4f1\Editor\Unity.exe -projectPath=C:\Users\User1\Desktop\"SimPhys Remedial Repo"\"gitlab clone dinges"\testing-ci-cd-pipelines -runTests -testPlatform editmode -logFile -testResults -./unit-tests.xml
