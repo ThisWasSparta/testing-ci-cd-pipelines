@@ -6,4 +6,4 @@ stages:
 build-job:
   stage: build
   script:
-    - C:/"Program Files"/Unity/Hub/Editor/2020.1.4f1/Editor/Unity.exe -projectPath=C:/Users/User1/Desktop/Testing/testing-builds -runTests -testPlatform editmode -logFile -testResults -./unit-tests.xml
+    - C:/"Program Files"/Unity/Hub/Editor/2020.1.4f1/Editor/Unity.exe -projectPath=C:/Users/User1/Desktop/Testing/temp-builds -runTests -testPlatform editmode -logFile -testResults -./unit-tests.xml
